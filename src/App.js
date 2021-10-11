@@ -4,10 +4,12 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <Switch>
+        <Route path="/" component={Homepage} exact />
+        
+        <Route component={Error} />
       </Switch>
-      
     </>
   );
 }
