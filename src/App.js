@@ -1,13 +1,13 @@
 import { Route, Switch } from "react-router-dom";
 import Homepage from "./components/Homepage";
-import Navbar from "./components/Navbar";
+import Navbarcomp from "./components/Navbarcomp";
 import Roadmap from "./components/Roadmap";
 import Interview from "./components/Interview";
 import Updates from "./components/Updates";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbarcomp />
       <Switch>
         <Route path="/" component={Homepage} exact />
         <Route path="/roadmap" component={Roadmap} exact />
