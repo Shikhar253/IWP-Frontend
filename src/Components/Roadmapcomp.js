@@ -4,7 +4,6 @@ import roadmap from "../Images/roadmap1.png";
 import CardComp from "./CardComp";
 import CardContext from "../context/card-context";
 
-
 const Roadmap = () => {
   const ctx = useContext(CardContext);
   return (
