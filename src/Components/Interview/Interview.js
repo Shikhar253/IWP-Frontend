@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import IContext from "../../context/i-context";
+import iCard from "../../context/iCard.json";
+import IComp from "./IComp.js";
 
 const Interview = () => {
-    return (
-        <div>
-            Interview
-        </div>
-    )
-}
+  return (
+    <>
+      <IContext.Provider value={iCard}>
+        <IComp />
+      </IContext.Provider>
+    </>
+  );
+};
 
-export default Interview
+export default Interview;
