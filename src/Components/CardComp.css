@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.cardWrap{
+    width: 24vw;
+    margin: 15px 4vw 15px 4vw;
+}
+.card{
+    border-radius: 20px !important;
+}
+.cardBody{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.cardTitle{
+    text-align: center !important;
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large !important;
+    font-weight: 900;
+}
+.cardText{
+    font-family: 'Orbitron', sans-serif;
+    font-size: smaller;
+    font-weight: 800;
+}
+.singleCard{
+    background-color: rgb(250, 242, 242) !important;
+}
+@media (max-width:768px){
+    .cardWrap{
+        width: 90vw;
+    }   
+}

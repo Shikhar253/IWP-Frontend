@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Front-end Development",
+    "description": "If you would like to get started as a front-end web developer, you are going to LOVE this road-map! Work on amazing projects ranging from a simple HTML page to a complete JavaScript based Google Chrome extension."
+  },
+  {
+    "title": "Back-end development",
+    "description": "This road-map will tell you about server, an application, and a database. Will give you a detailed view of what happens at the server side of a website, Databases and fetching API's."
+  },
+  {
+    "title": "App development",
+    "description": ". Whether you are a complete beginner or are coming from another language or platform, this road-map will go from setting up and installing Android Studio to building real apps that are useful and look great."
+  },
+  {
+    "title": "Competitive programming",
+    "description": "No less than a mental sport. One that asks to Learn about the creative approach to tech world and efficient use of coding tools."
+  },
+  {
+    "title": "Cyber Security",
+    "description": "This road-map covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments."
+  },
+  {
+    "title": "Cloud computing",
+    "description": "Get your hands dirty using these concepts of cloud. Evolution leading to Revolution – traditional IT already uses a variety of virtualization technologies to better utilize their physical IT resources."
+  },
+  {
+    "title": "AI/ML",
+    "description": "If you have no experience in ML development, it’s okay: this road-map includes both introductory and advanced level materials."
+  },
+  {
+    "title": "Blockchain",
+    "description": "Learn key Blockchain concepts, intuition and practical training to get you quickly up to speed with all things Crypto and Blockchain related."
+  },
+  {
+    "title": "AR/VR",
+    "description": "“When we get to this [AR] world, a lot of the things we think about today as physical objects, like a TV, will be $1 apps in an AR app store” — Mark Zukerberg"
+  },
+  {
+    "title": "Internet of Things (IoT)",
+    "description": "“As the Internet of things advances, the very notion of a clear dividing line between reality and virtual reality becomes blurred, sometimes in creative ways.”"
+  },
+  {
+    "title": "DevOps",
+    "description": "“Currently, DevOps is more like a philosophical movement, not yet a precise collection of practices, descriptive or prescriptive.”"
+  },
+  {
+    "title": "Data Science",
+    "description": "Data science is a new programming paradigm, a new way of communicating our wishes to a computer. It allows you to automate the ineffable."
+  }
+]

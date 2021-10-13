@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from './components/header'
-import Roadmap from './components/Roadmap'
-import Updates from './components/Updates'
-import Interview from './components/Interview'
+import Header from '../src/Components/header'
+import Roadmap from '../src/Components/Roadmap'
+import Updates from '../src/Components/Updates'
+import Interview from '../src/Components/Interview'
 
 ReactDOM.render(
   <React.StrictMode>

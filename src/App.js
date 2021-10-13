@@ -1,10 +1,15 @@
-import React from 'react'
-import Homepage from './components/Homepage';
+import React from "react";
+import Homepage from "../src/Components/Homepage";
+import Roadmap from "./Components/Roadmap";
+import CardContext from "./context/card-context";
+import cardData from '../src/context/cardData.json';
 
 function App() {
   return (
     <>
-    <Homepage/>
+      <CardContext.Provider value={cardData}>
+        <Roadmap />
+      </CardContext.Provider>
     </>
   );
 }
