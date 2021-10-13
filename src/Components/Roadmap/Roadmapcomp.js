@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./Roadmapcomp.css";
-import roadmap from "../Images/roadmap1.png";
+import roadmap from "../../Images/roadmap1.png";
 import CardComp from "./CardComp";
-import CardContext from "../context/card-context";
+import CardContext from "../../context/card-context";
 
 const Roadmap = () => {
   const ctx = useContext(CardContext);

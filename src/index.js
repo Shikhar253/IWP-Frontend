@@ -4,9 +4,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './Components/header'
-import Roadmap from './Components/Roadmap'
-import Updates from './Components/Updates'
-import Interview from './Components/Interview'
+import Roadmap from './Components/Roadmap/Roadmap'
+import Updates from './Components/Updates/Updates'
+import Interview from './Components/Interview/Interview'
 
 ReactDOM.render(
   <React.StrictMode>
