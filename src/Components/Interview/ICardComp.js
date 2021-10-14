@@ -8,9 +8,11 @@ const ICardComp = (props) => {
         <Card.Img variant="top" src={props.imglink} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Link href="https://www.apple.com/careers/us/">
+          {/* <LinkContainer to="/interview/frontend"> */}
+          <Card.Link>
             Link
           </Card.Link>
+          {/* </LinkContainer> */}
         </Card.Body>
       </Card>
     </div>
