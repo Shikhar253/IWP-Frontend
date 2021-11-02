@@ -1,0 +1,4 @@
+.homepageWrap{
+    display: flex;
+    flex-direction: column;
+}

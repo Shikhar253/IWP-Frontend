@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+.containerCont {
+  background-color: rgb(171, 224, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+}
+.contTitle {
+  font-size: 30px;
+ 
+}
+.icons {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconFA {
+  font-size: 60px;
+  text-align: center;
+}
+
+.contentBoxContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+.Tilt{
+    margin: 20px;
+    flex: 3;
+}
+.Tilt-inner{
+    background-color: rgb(206, 200, 200);
+   height: 200px;
+}
